@@ -1,0 +1,75 @@
+body {
+  height: 100vh;
+  background-color: black;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #1a1a1a;
+  border-radius: 15px;
+  padding: 55px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#expense-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+input {
+  border-radius: 5px;
+  border: 1px solid yellow;
+  background-color: #1a1a1a;
+  padding: 5px 3px;
+  font-size: large;
+  color: #fff;
+}
+button {
+  border-radius: 5px;
+  background-color: blue;
+  color: #fff;
+  border: none;
+  font-size: large;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #09099c;
+}
+input::placeholder {
+  color: #fff;
+}
+.container h1 {
+  margin-top: 0;
+}
+
+#list-items {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#list-items div{
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+}
+.bgred{
+    background-color: red;
+}
+
+#total-price{
+    text-align: center;
+    font-size: x-large;
+    margin-bottom: 0;
+}
+#total-price span{
+    font-weight: bolder;
+    color: yellow;
+}
